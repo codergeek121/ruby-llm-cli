@@ -1,5 +1,9 @@
 # ChatGPT/OpenAI in your terminal - CLAI
 
+[![MIT](https://img.shields.io/badge/license-mit-green?style=for-the-badge)](LICENSE)
+![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+
 CLAI (CLI + AI = CLAI) allows you to interact with the OpenAI API in your terminal.
 
 ## Installation
