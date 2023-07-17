@@ -7,6 +7,7 @@ Gem::Specification.new do |spec|
   spec.version = CLAI::VERSION
   spec.authors = ["Niklas Häusele"]
   spec.email = ["niklas.haeusele@hey.com"]
+  spec.licenses = ["MIT"]
 
   spec.summary = "Your personal AI for the terminal"
   spec.description = spec.summary
