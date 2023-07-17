@@ -13,7 +13,7 @@ CLAI (CLI + AI = CLAI) allows you to interact with the OpenAI API in your termin
 First, ensure that you have Ruby installed on your system. Then, you can install the gem by running:
 
 ```
-$ gem install clai
+gem install clai
 ```
 
 ## Configuration
@@ -21,7 +21,7 @@ $ gem install clai
 Before using the CLI tool, you need to configure it with your OpenAI API key. You can obtain an API key from the OpenAI website. Once you have your API key, run the following command and provide your key when prompted:
 
 ```
-$ clai setup
+clai setup
 ```
 
 This will create a configuration file (`~/.config/clai/clai.yml`) on your system.
@@ -33,7 +33,7 @@ Read more about the setup command [here](docs/setup.md).
 You can chat with ChatGPT with:
 
 ```
-$ clai chat "Tell me a funny joke"
+clai chat "Tell me a funny joke"
 ```
 
 This will send the given prompt to the API and display the generated completion.
@@ -43,7 +43,7 @@ This will send the given prompt to the API and display the generated completion.
 To view the available commands and options, you can use the `help` command:
 
 ```
-$ clai help
+clai help
 ```
 
 This will display a list of supported commands and their descriptions.
@@ -53,7 +53,7 @@ This will display a list of supported commands and their descriptions.
 You can start an interactive session with `clai session` command.
 
 ```
-$ clai session
+clai session
 Your prompt: <Enter your prompt here><Enter>
 ```
 
@@ -63,18 +63,18 @@ This will start a REPL like process to interact with the OpenAI api.
 
 Here are a few examples to get you started:
 
-```sh
+```
 # Setup clai on your machine
-$ clai setup
+clai setup
 
 # Start an interactive chat session
-$ clai session
+clai session
 
 # Get help about the available commands and options
-$ clai help
+clai help
 
 # Send a single prompt
-$ clai chat "Hello World"
+clai chat "Hello World"
 ```
 
 ## Contributing

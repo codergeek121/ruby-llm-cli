@@ -6,5 +6,5 @@ Some examples:
 
 
 ```
-$ clai chat "Tell me a funny joke"
+clai chat "Tell me a funny joke"
 ```
