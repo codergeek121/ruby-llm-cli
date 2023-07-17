@@ -1,0 +1,7 @@
+disclaimer: This is alpha software, it's probably broken. Please specify a billing limit for your API key to avoid unexpected costs
+paste_key: "Paste your OpenAI API key and press enter: "
+already_setup: |
+  Clai is already setup! To regenerate a new config run:
+  $ clai setup --force
+no_clai_yml: No clai.yml config file found. Please run 'clai setup'
+prompt: "Your prompt: "
