@@ -42,6 +42,13 @@ module CLAI
           # Read more about the clai.yml config file at https://github.com/codergeek121/clai/docs/setup.md
           api_key: #{@api_key}
           model: gpt-3.5-turbo
+          personas:
+            default:
+              - You are a helpful assistant
+              - You answers are formatted in markdown
+            ruby:
+              - You are a ruby programmer
+              - You do not comment your code
         YML
       end
     end

@@ -4,14 +4,16 @@ module CLAI
       @config = config
     end
   
-    def chat(query)
+    def chat(query, system_prompts: [])
+      system_prompts = system_prompts.map { |prompt| { role: :system, content: prompt } }
       puts
       client
         .post("https://api.openai.com/v1/chat/completions",
           json: {
             model: @config.model,
             messages: [
-              { "role": "user", "content": query }
+              *system_prompts,
+              { "role": "user", "content": query },
             ],
             stream: true
           }

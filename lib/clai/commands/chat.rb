@@ -5,8 +5,9 @@ module CLAI
         @config = config
       end
 
-      def chat(prompt)
-        HTTPClient.new(@config).chat(prompt)
+      def chat(prompt, persona: 'default')
+        system_prompts = @config.personas.fetch(persona, [])
+        HTTPClient.new(@config).chat(prompt, system_prompts: system_prompts)
       end
     end
   end
