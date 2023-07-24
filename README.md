@@ -33,20 +33,16 @@ Read more about the setup command [here](docs/setup.md).
 You can chat with ChatGPT with:
 
 ```
+// Basic single command
 clai chat "Tell me a funny joke"
+
+// Use a preconfigured persona
+clai chat "Count to 10" --persona ruby
 ```
 
 This will send the given prompt to the API and display the generated completion.
 
-### Help
-
-To view the available commands and options, you can use the `help` command:
-
-```
-clai help
-```
-
-This will display a list of supported commands and their descriptions.
+Read more about the chat command [here](docs/chat.md).
 
 ### Starting a session
 
@@ -58,6 +54,18 @@ Your prompt: <Enter your prompt here><Enter>
 ```
 
 This will start a REPL like process to interact with the OpenAI api.
+
+Read more about the session command [here](docs/session.md).
+
+### Help
+
+To view the available commands and options, you can use the `help` command:
+
+```
+clai help
+```
+
+This will display a list of supported commands and their descriptions.
 
 ## Examples
 
